@@ -1,0 +1,22 @@
+.UserPage{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding:40px 20px;
+  background-color: #e3f2fd;
+  border: #007bff 1px solid;
+  border-radius: 5px;
+  margin: 40px 0px;
+  width: 100%;
+}
+
+.delete{
+  padding: 8px; 
+  border: #007bff 1px solid;
+  background-color: #e3f2fd;
+  cursor: pointer;
+}
+
+tr{
+  height: 50px;
+}

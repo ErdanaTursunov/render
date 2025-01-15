@@ -1,0 +1,50 @@
+*{
+  list-style: none;;
+}
+
+.CreateSchedulePage{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding:40px 20px;
+  background-color: #e3f2fd;
+  border: #007bff 1px solid;
+  border-radius: 5px;
+  margin: 40px 0px;
+  width: 100%;
+}
+
+.label_title{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+select, input{
+  padding: 10px;
+  background-color: #e3f2fd;
+  border: #007bff 1px solid;
+  border-radius: 10px;
+
+}
+
+button{
+  padding: 8px; 
+  border: #007bff 1px solid;
+  background-color: #e3f2fd;
+}
+
+
+.block{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.block div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}

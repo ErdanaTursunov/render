@@ -1,0 +1,63 @@
+*{
+  list-style: none;;
+}
+
+.GroupManagementPage{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding:40px 20px;
+  background-color: #e3f2fd;
+  border: #007bff 1px solid;
+  border-radius: 5px;
+  margin: 40px 0px;
+  width: 100%;
+}
+
+.label_title{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+.label_title input{
+  padding: 10px;
+  background-color: #e3f2fd;
+  border: #007bff 1px solid;
+  border-radius: 10px;
+
+}
+
+.label_title button{
+  padding: 10px;
+  background-color: #e3f2fd;
+  border: #007bff 1px solid;
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.label_title button:hover {
+  background-color: #007bff;
+}
+.label_title button:active{
+  transform: scale(0.95);
+}
+
+.delete{
+  padding: 8px; 
+  border: #007bff 1px solid;
+  background-color: #e3f2fd;
+}
+.groups{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.group{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

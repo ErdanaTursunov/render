@@ -1,0 +1,71 @@
+/* Общий контейнер */
+.test-list-container {
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Заголовок */
+  .test-list-container h2 {
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  /* Стили для списка */
+  .test-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Стили для элементов списка */
+  .test-item {
+    padding: 10px 15px;
+    margin: 10px 0;
+    font-size: 1.2em;
+    background-color: #ffffff;
+    color: #444;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Эффект при наведении */
+  .test-item:hover {
+    background-color: #e3f2fd;
+    border-color: #2196f3;
+    color: #0d47a1;
+  }
+  
+  /* Активный элемент */
+  .test-item:active {
+    background-color: #bbdefb;
+    border-color: #1976d2;
+    color: #0d47a1;
+  }
+  
+  .test-link {
+    text-decoration: none;
+    width: 100%;
+  }
+
+  .test-item.disabled {
+    background-color: #d3d3d3; /* Серый фон для пройденных тестов */
+    cursor: not-allowed; /* Курсор для неактивных элементов */
+  }
+  
+  .test-link.disabled-link {
+    color: #a9a9a9; /* Серый цвет для текста ссылки */
+    pointer-events: none; /* Отключает кликабельность */
+  }
+  
