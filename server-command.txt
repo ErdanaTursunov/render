@@ -1,0 +1,5 @@
+
+
+npm install    // после загрузки из gitHub установите все пакеты
+node initialData.js   // инициализация БД, сначало создайте в postgreSql базу данных 'test_app'
+npm start   // запуск проекта
